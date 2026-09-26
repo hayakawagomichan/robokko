@@ -1,0 +1,6 @@
+.pio/
+.vscode/
+output/
+__pycache__/
+*.pyc
+local-backup/
