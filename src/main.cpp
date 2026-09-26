@@ -1,9 +1,10 @@
 // M5Stack AtomS3R - servo sweep toggled by the front button (BtnA)
 //
 // Wiring: connect the servo to the Grove (Port.A) connector.
-//   Red   -> 5V
-//   Black -> GND
-//   Servo signal wire -> G2 (GPIO2)
+//   Grove black (GND) -> servo GND (brown on the tested kit)
+//   Grove red (5V)    -> servo power (orange on the tested kit)
+//   Grove yellow (G2) -> servo signal (yellow on the tested kit)
+// Servo wire colors vary by product; confirm the actual pin functions.
 // If your servo cable uses the other signal wire, change SERVO_PIN to 1 (G1).
 //
 // Display:

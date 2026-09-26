@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+<title id="title">書き込みはUploadだけでOK</title><desc id="desc">BuildはPC内でプログラムを準備するだけ。Uploadは必要なビルドと本体への書き込みを続けて行います。</desc>
+<rect width="1000" height="650" rx="24" fill="#fff9f5"/>
+<g font-family="'Yu Gothic','Meiryo',sans-serif" fill="#48372f">
+<text x="40" y="58" font-size="32" font-weight="700">書き込むときは「→ Upload」を押すだけ</text>
+<text x="40" y="99" font-size="20">VS Codeの下のバーで探し、マウスを重ねて名前を確認します。</text>
+<rect x="40" y="129" width="420" height="171" rx="18" fill="#f0eee9"/>
+<text x="70" y="192" font-size="34" font-weight="700">✓ Build</text>
+<text x="70" y="239" font-size="23">PCの中で準備するだけ</text>
+<text x="70" y="272" font-size="18">本体にはまだ書き込まれません。</text>
+<rect x="480" y="129" width="480" height="171" rx="18" fill="#ffe2eb" stroke="#b13c61" stroke-width="3"/>
+<text x="510" y="192" font-size="34" font-weight="700" fill="#9b284d">→ Upload</text>
+<text x="510" y="239" font-size="23">必要なビルド ＋ 本体へ書き込み</text>
+<text x="510" y="272" font-size="18">先に ✓ Build を押さなくてOK。</text>
+<text x="40" y="351" font-size="24" font-weight="700">Uploadを押したあとの流れ</text>
+<rect x="40" y="379" width="280" height="125" rx="16" fill="#fff" stroke="#e7d9cf" stroke-width="2"/>
+<text x="64" y="425" font-size="23" font-weight="700">① 必要なビルド</text><text x="64" y="466" font-size="18">PC内で書き込み用に変換</text>
+<path d="M331 440H356m-10-10 10 10-10 10" fill="none" stroke="#a47857" stroke-width="4"/>
+<rect x="368" y="379" width="265" height="125" rx="16" fill="#fff" stroke="#e7d9cf" stroke-width="2"/>
+<text x="392" y="425" font-size="23" font-weight="700">② USBで転送</text><text x="392" y="466" font-size="18">ATOM S3Rへ書き込む</text>
+<path d="M643 440H668m-10-10 10 10-10 10" fill="none" stroke="#a47857" stroke-width="4"/>
+<rect x="680" y="379" width="280" height="125" rx="16" fill="#e8f4ed"/>
+<text x="704" y="425" font-size="23" font-weight="700">③ SUCCESS</text><text x="704" y="466" font-size="18">完了！ 本体の顔を確認</text>
+<text x="40" y="554" font-size="21" font-weight="700">フォルダを開くだけでは、書き込みは始まりません。</text>
+<text x="40" y="587" font-size="19">初回は準備に時間がかかります。完了までUSBを抜かずに待ちましょう。</text>
+<text x="40" y="625" font-size="16" fill="#75665e">操作の説明図です。実際の画面の配置・見た目はVS Codeの設定やバージョンで異なります。</text>
+</g></svg>

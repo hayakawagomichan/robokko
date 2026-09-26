@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="630" viewBox="0 0 1000 630" role="img" aria-labelledby="title desc">
+<title id="title">フォルダの置き場所と開くフォルダ</title><desc id="desc">WindowsではCドライブのrobotkoなど英数字のパスを使い、platformio.iniが直接入ったフォルダをVS Codeで開きます。</desc>
+<rect width="1000" height="630" rx="24" fill="#fff9f5"/>
+<g font-family="'Yu Gothic','Meiryo',sans-serif" fill="#48372f">
+<text x="40" y="57" font-size="30" font-weight="700">フォルダは「置く場所」と「開く階層」が大切</text>
+<rect x="40" y="88" width="920" height="135" rx="16" fill="#e8f4ed"/>
+<text x="66" y="128" font-size="23" font-weight="700">おすすめ：途中のフォルダ名も英数字にする</text>
+<text x="66" y="171" font-family="Consolas,monospace" font-size="30">C:\robotko</text>
+<text x="66" y="205" font-size="18">ZIPを展開してできたフォルダを移動・名前変更します。</text>
+<rect x="40" y="241" width="920" height="90" rx="16" fill="#fff0df"/>
+<text x="66" y="278" font-size="21" font-weight="700">避けたい例：C:\Users\はなこ\Downloads\robotko</text>
+<text x="66" y="309" font-size="18">最後が robotko でも、途中に日本語があるとビルドに失敗する場合があります。</text>
+<rect x="40" y="350" width="920" height="236" rx="16" fill="#fff" stroke="#e7d9cf" stroke-width="2"/>
+<text x="67" y="393" font-size="23" font-weight="700">VS Codeで開くのは、このフォルダ</text>
+<text x="73" y="435" font-family="Consolas,monospace" font-size="24">robotko/</text>
+<text x="99" y="478" font-family="Consolas,monospace" font-size="23">├─ platformio.ini</text>
+<text x="99" y="515" font-family="Consolas,monospace" font-size="23">├─ src/</text>
+<text x="99" y="552" font-family="Consolas,monospace" font-size="23">└─ include/</text>
+<path d="M625 469H385" stroke="#ba4264" stroke-width="4"/><path d="m397 459-12 10 12 10" fill="none" stroke="#ba4264" stroke-width="4"/>
+<text x="643" y="466" font-size="20" font-weight="700" fill="#a53254">このファイルが</text>
+<text x="643" y="497" font-size="20" font-weight="700" fill="#a53254">直接入っている場所！</text>
+<text x="40" y="613" font-size="16" fill="#75665e">説明図です。ZIPの中や、srcフォルダだけを開かないでください。</text>
+</g></svg>

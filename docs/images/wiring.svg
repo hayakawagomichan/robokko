@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="630" viewBox="0 0 1000 630" role="img" aria-labelledby="title desc">
+<title id="title">このキットで確認したSG90の配線</title><desc id="desc">Groveの黒GNDをサーボの茶、赤5Vをサーボのオレンジ、黄G2をサーボの黄へ接続。Groveの白G1は接続しません。サーボの色は製品で異なります。</desc>
+<rect width="1000" height="630" rx="24" fill="#fff9f5"/>
+<g font-family="'Yu Gothic','Meiryo',sans-serif" fill="#48372f">
+<text x="40" y="56" font-size="30" font-weight="700">USBを抜いてから、サーボをつなぐ</text>
+<text x="40" y="96" font-size="20">このキットの実物で確認した色です。サーボ側は 茶・オレンジ・黄。</text>
+<rect x="40" y="128" width="340" height="351" rx="18" fill="#fff" stroke="#e7d9cf" stroke-width="2"/>
+<rect x="620" y="128" width="340" height="351" rx="18" fill="#fff" stroke="#e7d9cf" stroke-width="2"/>
+<text x="63" y="171" font-size="24" font-weight="700">ATOM S3R側</text><text x="63" y="201" font-size="18">Groveケーブル</text>
+<text x="644" y="171" font-size="24" font-weight="700">SG90側</text><text x="644" y="201" font-size="18">サーボの3本の線</text>
+<text x="65" y="257" font-size="25">黒 / GND</text><text x="644" y="257" font-size="25">茶 / GND（−）</text>
+<path d="M380 249H500" stroke="#282828" stroke-width="10"/><path d="M500 249H620" stroke="#855330" stroke-width="10"/>
+<text x="65" y="326" font-size="25">赤 / 5V</text><text x="644" y="326" font-size="25">オレンジ / 5V（＋）</text>
+<path d="M380 318H500" stroke="#db3b49" stroke-width="10"/><path d="M500 318H620" stroke="#ef871c" stroke-width="10"/>
+<text x="65" y="395" font-size="25">黄 / G2</text><text x="644" y="395" font-size="25">黄 / 信号</text>
+<path d="M380 387H620" stroke="#d6b20b" stroke-width="10"/>
+<text x="65" y="452" font-size="21" fill="#746b64">白 / G1 → つながない</text>
+<rect x="40" y="501" width="920" height="70" rx="14" fill="#fff0df"/>
+<text x="62" y="530" font-size="19" font-weight="700">別のSG90は色が違う場合があります。色だけで決めず、購入品の仕様も確認。</text>
+<text x="62" y="555" font-size="18">色や端子の役割がわからないときは、USBをつながずに確認してください。</text>
+<text x="40" y="607" font-size="16" fill="#75665e">機能の対応図です。コネクタの向き・ピンの並びを表した図ではありません。</text>
+</g></svg>
