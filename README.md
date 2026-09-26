@@ -41,7 +41,7 @@ ATOM S3Rの小さな画面に顔を出して、SG90サーボモーターを動�
 
 ## 1. プログラムをダウンロードする
 
-1. [このGitHubのトップページ](https://github.com/hayakawagomichan/robotko)を開きます。
+1. [このGitHubのトップページ](https://github.com/hayakawagomichan/robokko)を開きます。
 2. ファイル一覧の上にある **「Code」** を押します。
 3. **「Download ZIP」** を押します。
 4. ダウンロードしたZIPファイルを右クリックして **「すべて展開」** を選びます。
@@ -52,24 +52,24 @@ ZIPの中を開いて見るだけではなく、必ず展開してください�
 
 **Windowsでは、フォルダの名前や途中の場所に日本語があると、ビルドに失敗する場合があります。**
 
-今回は、展開してできた `robotko-main` フォルダを `robotko` に名前変更し、エクスプローラーの「PC」→「ローカルディスク (C:)」の中へ移動する方法をおすすめします。
+今回は、展開してできた `robokko-main` フォルダを `robokko` に名前変更し、エクスプローラーの「PC」→「ローカルディスク (C:)」の中へ移動する方法をおすすめします。
 
 | 例 | 説明 |
 | --- | --- |
-| `C:\robotko` | おすすめ。途中も含めて英数字だけ |
-| `C:\Users\hanako\Downloads\robotko` | 途中も英数字なら、このような場所でもOK |
-| `C:\Users\はなこ\Downloads\robotko` | 最後のフォルダ名が英語でも、途中に日本語がある |
-| `C:\Users\hanako\Downloads\なかよしロボ\robotko` | 親フォルダの日本語も影響する場合がある |
+| `C:\robokko` | おすすめ。途中も含めて英数字だけ |
+| `C:\Users\hanako\Downloads\robokko` | 途中も英数字なら、このような場所でもOK |
+| `C:\Users\はなこ\Downloads\robokko` | 最後のフォルダ名が英語でも、途中に日本語がある |
+| `C:\Users\hanako\Downloads\なかよしロボ\robokko` | 親フォルダの日本語も影響する場合がある |
 
 移動先へのアクセス許可がない場合は、無理に変更せず、PCを管理している人に英数字だけの作業場所を用意してもらってください。
 
-![英数字の場所へ置き、platformio.iniが直接入っているrobotkoフォルダを開きます。](docs/images/open-folder.svg)
+![英数字の場所へ置き、platformio.iniが直接入っているrobokkoフォルダを開きます。](docs/images/open-folder.svg)
 
 ## 3. VS Codeで「フォルダ」を開く
 
 1. VS Codeを起動します。
 2. 上のメニューから **「ファイル」→「フォルダーを開く…」**（英語表示なら `File → Open Folder...`）を選びます。
-3. 手順2で置いた **`robotko` フォルダ**を選びます。
+3. 手順2で置いた **`robokko` フォルダ**を選びます。
 4. VS Code左側のファイル一覧に、**`platformio.ini`、`src`、`include`** が見えることを確認します。
 
 **開くのは、`platformio.ini` が直接入っているフォルダです。**
@@ -178,7 +178,7 @@ Groveケーブル側とは色が違うので、次の表で対応を確認して
 | --- | --- |
 | フォルダを開いても何も始まらない | 開くだけでは書き込まれません。準備が終わったら「→ Upload」を押します |
 | PlatformIOのボタンやタスクがない | PlatformIO IDE拡張が有効か、`platformio.ini` があるフォルダを開いているかを確認します |
-| ビルド中に `No such file or directory` が出る | 途中のフォルダ名も含めて日本語がないか確認します。まず `C:\robotko` のような場所で試します |
+| ビルド中に `No such file or directory` が出る | 途中のフォルダ名も含めて日本語がないか確認します。まず `C:\robokko` のような場所で試します |
 | `Connecting...` のまま進まない | 下の「書き込みモード」を試します。充電専用ケーブルを使っていないかも確認します |
 | `SUCCESS` は出たが顔が出ない | USBをいったん抜いて挿し直します。それでも出ない場合は、画面付きのATOM S3Rか確認します |
 | 顔は出るがサーボが動かない | USBを抜き、GND・5V・G2の3本を配線表と照合します。信号をG1につないでいないかも確認します |
@@ -254,4 +254,4 @@ pio run -t upload
 
 参考：[PlatformIO公式のVS Code操作説明](https://docs.platformio.org/en/stable/integration/ide/vscode.html)、[M5Stack公式 ATOM S3R](https://docs.m5stack.com/en/core/AtomS3R)。
 
-困ったこと・改善案は [Issues](https://github.com/hayakawagomichan/robotko/issues) にお寄せください。エラーのときは、何の手順で止まったかと、ターミナルのエラー表示を教えてください。
+困ったこと・改善案は [Issues](https://github.com/hayakawagomichan/robokko/issues) にお寄せください。エラーのときは、何の手順で止まったかと、ターミナルのエラー表示を教えてください。
