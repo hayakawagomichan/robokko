@@ -35,7 +35,7 @@ static const float SHAKE_THRESHOLD_G = 1.4f;      // deviation from 1g that coun
 static const unsigned long SHAKE_DISPLAY_MS = 800;
 
 static const unsigned long ARROW_DISPLAY_MS = 800;
-static const int DOUBLE_CLICK_ANGLE = 20;         // one-off servo move on button double-click (independent of sweep)
+static const int DOUBLE_CLICK_ANGLE = 20;         // every double-click commands this same position
 
 // Idle animation shown while sweeping, picked randomly (weighted) each time a pattern finishes.
 struct AnimStep {
@@ -67,7 +67,6 @@ unsigned long lastShakeMs = 0;
 unsigned long lastDoubleClickMs = 0;
 bool shakeActive = false;
 bool arrowActive = false;
-bool doubleClickAtRest = false; // toggles which angle the next double-click moves to
 
 static const uint16_t *IMAGE_ARROW = reinterpret_cast<const uint16_t *>(1); // sentinel: procedurally drawn, not pushImage'd
 const uint16_t *currentImage = nullptr;
@@ -150,11 +149,10 @@ void loop() {
         lastDoubleClickMs = millis();
         arrowActive = true;
         // Keep the next sweep/return step relative to the last commanded position.
-        angle = doubleClickAtRest ? REST_ANGLE : DOUBLE_CLICK_ANGLE;
+        angle = DOUBLE_CLICK_ANGLE;
         direction = (angle == REST_ANGLE) ? -1 : 1;
         lastStepMs = lastDoubleClickMs;
         servo.write(angle);
-        doubleClickAtRest = !doubleClickAtRest;
     }
 
     M5.Imu.update();
