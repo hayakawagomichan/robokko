@@ -22,7 +22,7 @@
 | [買い物リスト](docs/shopping-list.md) | 電子部品・道具の通販リンクと店舗案内 |
 | [3D印刷データ](docs/printing.md) | キャラクター別の部品・個数・Bambu用設定 |
 | [写真つき説明書（PDF）](docs/assembly.md) | マカロンちゃん・おばけねこの組み立て |
-| 解説動画：[マカロンちゃん](https://youtu.be/lD4DkPZAsg8) ／ [おばけねこ](https://youtu.be/PJhalL-63JU) | 組み立ての流れを動画で見る |
+| 解説動画：[マカロンちゃん](https://youtu.be/42XKh_sF3WY) ／ [おばけねこ](https://youtu.be/PJhalL-63JU) | 組み立ての流れを動画で見る |
 
 ## はじめに
 

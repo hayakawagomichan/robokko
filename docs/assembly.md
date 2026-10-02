@@ -10,7 +10,7 @@
 
 | キャラクター | カラーPDF | YouTube |
 | --- | --- | --- |
-| マカロンちゃん | [説明書](manuals/macaron-a4-color.pdf) | [組み立て動画](https://youtu.be/lD4DkPZAsg8) |
+| マカロンちゃん | [説明書](manuals/macaron-a4-color.pdf) | [組み立て動画](https://youtu.be/42XKh_sF3WY) |
 | おばけねこ | [説明書](manuals/obakeneko-a4-color.pdf) | [組み立て動画](https://youtu.be/PJhalL-63JU) |
 
 PDFは **A4・両面・長辺とじ・実際のサイズ（100%）** で印刷します。
