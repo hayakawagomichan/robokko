@@ -16,6 +16,7 @@ M5Stack ATOM S3Rの小さな画面に顔を出して、SG90サーボモーター
 | マカロンちゃんを自分で印刷したい | [必要なデータと個数](docs/printing.md#macaron) |
 | おばけねこを自分で印刷したい | [必要なデータと個数](docs/printing.md#obakeneko) |
 | キットのパーツを持っていて、組み立てたい | [写真つき説明書（カラーPDF）](docs/assembly.md) |
+| 動画を見ながら組み立てたい | [マカロンちゃん](https://youtu.be/lD4DkPZAsg8) ／ [おばけねこ](https://youtu.be/PJhalL-63JU) |
 | 電子部品・バッテリー・道具をそろえたい | [買い物リスト](docs/shopping-list.md) |
 | ATOM S3Rにプログラムを書き込みたい | [この下の「はじめに」](#はじめに) |
 
@@ -23,6 +24,10 @@ M5Stack ATOM S3Rの小さな画面に顔を出して、SG90サーボモーター
 印刷済みパーツがある方は印刷の工程を飛ばして進められます。
 
 **キットを組み立てる方は → [マカロンちゃん・おばけねこの作り方（カラーPDF）](docs/assembly.md)**
+
+**組み立て解説動画（YouTube） → [マカロンちゃん](https://youtu.be/lD4DkPZAsg8) ／ [おばけねこ](https://youtu.be/PJhalL-63JU)**
+
+動画を一時停止しながら、自分のペースで組み立てられます。部品の確認や配線には、写真つき説明書もあわせて使ってください。
 
 **これから部品をそろえる方は → [買い物リスト（通販・店頭の案内）](docs/shopping-list.md)**
 
