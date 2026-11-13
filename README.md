@@ -7,6 +7,17 @@
 画面に顔を出して、サーボモーターで動く手のひらサイズのロボットです。
 プログラム・作り方・3D印刷データを公開しています。
 
+## キットを選ぶ
+
+| キット | 説明書・書き込み手順 |
+| --- | --- |
+| マカロンちゃん | [組み立てPDF](docs/manuals/macaron-a4-color.pdf) ／ [ATOM S3Rの書き込み手順](#はじめに) |
+| おばけねこ | [組み立てPDF](docs/manuals/obakeneko-a4-color.pdf) ／ [ATOM S3Rの書き込み手順](#はじめに) |
+| 雪だるま | [専用リポジトリ](https://github.com/hayakawagomichan/robokko-snowman) |
+| クリスマスベル | [専用リポジトリ](https://github.com/hayakawagomichan/robokko-bell) |
+
+雪だるまとクリスマスベルの説明書・コードは、それぞれの専用リポジトリで管理しています。
+
 ## 最初にお読みください
 
 - **3Dプリント部品は高温で変形します。** 高温になる場所に置かないでください。
